@@ -7,7 +7,7 @@ function Gig() {
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadcrumbs">Liverr > Graphics & Design ></span>
+          <span className="breadcrumbs">Freelancing Marketplace > Graphics & Design ></span>
           <h1>I will create ai generated art for you</h1>
           <div className="user">
             <img
@@ -100,7 +100,7 @@ function Gig() {
               </div>
               <hr />
               <p>
-                My name is Anna, I enjoy creating AI generated art in my spare
+                My name is Riya, I enjoy creating AI generated art in my spare
                 time. I have a lot of experience using the AI program and that
                 means I know what to prompt the AI with to get a great and
                 incredibly detailed result.
@@ -123,7 +123,7 @@ function Gig() {
                       src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png"
                       alt=""
                     />
-                    <span>United States</span>
+                    <span>India</span>
                   </div>
                 </div>
               </div>

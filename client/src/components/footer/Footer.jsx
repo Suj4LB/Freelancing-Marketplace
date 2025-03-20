@@ -34,8 +34,8 @@ function Footer() {
             <h2>Support</h2>
             <span>Help & Support</span>
             <span>Trust & Safety</span>
-            <span>Selling on Liverr</span>
-            <span>Buying on Liverr</span>
+            <span>Sell</span>
+            <span>Buy</span>
           </div>
           <div className="item">
             <h2>Community</h2>
@@ -52,25 +52,25 @@ function Footer() {
             <span>Community Standards</span>
           </div>
           <div className="item">
-            <h2>More From Fiverr</h2>
-            <span>Liverr Business</span>
-            <span>Liverr Pro</span>
-            <span>Liverr Logo Maker</span>
-            <span>Liverr Guides</span>
+            <h2>More From Us</h2>
+            <span>Business</span>
+            <span>Pro</span>
+            <span>Logo Maker</span>
+            <span>Guides</span>
             <span>Get Inspired</span>
-            <span>Liverr Select</span>
+            <span>Select</span>
             <span>ClearVoice</span>
-            <span>Liverr Workspace</span>
+            <span>Workspace</span>
             <span>Learn</span>
             <span>Working Not Working</span>
           </div>
         </div>
         <hr />
         <div className="bottom">
-          <div className="left">
-            <h2>liverr</h2>
-            <span>© Liverr International Ltd. 2023</span>
-          </div>
+          {/* <div className="left">
+            <h2>fmplace</h2>
+            <span>© fmplace International Ltd. 2023</span>
+          </div> */}
           <div className="right">
             <div className="social">
               <img src="/img/twitter.png" alt="" />
@@ -83,10 +83,10 @@ function Footer() {
               <img src="/img/language.png" alt="" />
               <span>English</span>
             </div>
-            <div className="link">
+            {/* <div className="link">
               <img src="/img/coin.png" alt="" />
               <span>USD</span>
-            </div>
+            </div> */}
             <img src="/img/accessibility.png" alt="" />
           </div>
         </div>

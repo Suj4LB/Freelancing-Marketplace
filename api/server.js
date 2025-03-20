@@ -13,6 +13,8 @@ const connect = async () => {
     }
 }
 
+// yarn run dev
+
 // @21:35
 
 // app.use(cors({ origin: "http://localhost:5173", credentials: true }));
