@@ -24,11 +24,11 @@ const connect = async () => {
 
 // yarn run dev
 
-// @38:50
+// @44:17
 
 // app.use(cors({ origin: "http://localhost:5173", credentials: true }));
-// app.use(express.json());
 // app.use(cookieParser());
+app.use(express.json());
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
 app.use("/api/gigs", gigRoute);
