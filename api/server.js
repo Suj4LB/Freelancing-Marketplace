@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import express from "express";
+import dotenv from "dotenv"
 import userRoute from  "./routes/user.route.js";
 import gigRoute from "./routes/gig.route.js";
 import orderRoute from "./routes/order.route.js";
@@ -9,11 +10,12 @@ import reviewRoute from "./routes/review.route.js";
 import authRoute from "./routes/auth.route.js";
 
 const app = express();
+dotenv.config();
 mongoose.set('strictQuery', true);
 
 const connect = async () => {
     try {
-        await mongoose.connect('mongodb+srv://projectdb:projectdb@freelance.akcf7.mongodb.net/?retryWrites=true&w=majority&appName=freelance');
+        await mongoose.connect(process.env.MONGO);
         console.log("Connection with mongoDB is successful! ");
     } catch (error) {
         console.log(error);
