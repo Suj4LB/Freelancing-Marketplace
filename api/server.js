@@ -8,6 +8,7 @@ import conversationRoute from "./routes/conversation.route.js";
 import messageRoute from "./routes/message.route.js";
 import reviewRoute from "./routes/review.route.js";
 import authRoute from "./routes/auth.route.js";
+import cookieParser from "cookie-parser";
 
 const app = express();
 dotenv.config();
@@ -24,10 +25,10 @@ const connect = async () => {
 
 // yarn run dev
 
-// @44:17
+// @1:02:20
 
 // app.use(cors({ origin: "http://localhost:5173", credentials: true }));
-// app.use(cookieParser());
+app.use(cookieParser());
 app.use(express.json());
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
