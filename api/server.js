@@ -26,7 +26,7 @@ const connect = async () => {
 
 // yarn run dev
 
-// @1:02:20
+// @1:21:45
 
 app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 app.use(cookieParser());
