@@ -24,7 +24,6 @@ const connect = async () => {
     }
 }
 
-// yarn run dev
 
 // @1:21:45
 

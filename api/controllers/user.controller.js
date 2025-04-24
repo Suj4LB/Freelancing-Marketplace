@@ -9,6 +9,12 @@ export const deleteUser = async (req, res, next) => {
         return next(403, "You are not authorized to delete!");
     }
     await User.findByIdAndDelete(req.params.id);
-    res.status(200).send("User has been deleted.")
+    res.status(200).send("User has been deleted.");
+
+};
+export const getuser = async (req, res, next) => {
+    const user = await User.findById(req.params.id);
+
+    res.status(200).send(user);
 
 };

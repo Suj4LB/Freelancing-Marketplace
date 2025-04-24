@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react";
 import "./Gigs.scss";
 import { gigs } from "../../data";
 import GigCard from "../../components/gigCard/GigCard";
+import newRequest from "../../utils/newRequest";
+
 
 function Gigs() {
   const [sort, setSort] = useState("sales");
@@ -22,10 +24,10 @@ function Gigs() {
   return (
     <div className="gigs">
       <div className="container">
-        <span className="breadcrumbs">Freelancing Marketplace > Graphics & Design ></span>
-        <h1>AI Artists</h1>
+      <span className="breadcrumbs">Freelancing Marketplace &gt; Graphics &amp; Design &gt;</span>
+      <h1>AI Artists</h1>
         <p>
-          Explore the boundaries of art and technology with Liverr's AI artists
+          Explore the boundaries of art and technology with our AI artists
         </p>
         <div className="menu">
           <div className="left">
