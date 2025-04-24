@@ -25,7 +25,7 @@ const connect = async () => {
 }
 
 
-// @1:21:45
+// @2:21:41
 
 app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 app.use(cookieParser());
