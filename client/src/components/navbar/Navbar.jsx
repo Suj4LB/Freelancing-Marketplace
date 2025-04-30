@@ -39,14 +39,14 @@ function Navbar() {
       <div className="container">
         <div className="logo">
           <Link className="link" to="/">
-            <span className="text">fiverr</span>
+            <span className="text">Freelance Marketplace</span>
           </Link>
-          <span className="dot">.</span>
+          {/* <span className="dot"></span> */}
         </div>
         <div className="links">
-          <span>Fiverr Business</span>
-          <span>Explore</span>
-          <span>English</span>
+          {/* <span>Business</span> */}
+          {/* <span>Explore</span> */}
+          {/* <span>English</span> */}
           {!currentUser?.isSeller && <span>Become a Seller</span>}
           {currentUser ? (
             <div className="user" onClick={() => setOpen(!open)}>
@@ -90,7 +90,7 @@ function Navbar() {
         <>
           <hr />
           <div className="menu">
-            <Link className="link menuLink" to="/">
+            {/* <Link className="link menuLink" to="/">
               Graphics & Design
             </Link>
             <Link className="link menuLink" to="/">
@@ -116,7 +116,7 @@ function Navbar() {
             </Link>
             <Link className="link menuLink" to="/">
               Lifestyle
-            </Link>
+            </Link> */}
           </div>
           <hr />
         </>

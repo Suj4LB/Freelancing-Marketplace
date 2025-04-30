@@ -15,6 +15,9 @@ const app = express();
 dotenv.config();
 mongoose.set('strictQuery', true);
 
+// @3:07:09
+// Current working message endpoint - http://localhost:5173/message/680c78765dcbed7ece51c3f8680c78765dcbed7ece51c3f8
+
 const connect = async () => {
     try {
         await mongoose.connect(process.env.MONGO);
@@ -23,11 +26,6 @@ const connect = async () => {
         console.log(error);
     }
 }
-
-
-// @3:07:09
-// Current working message endpoint - http://localhost:5173/message/680c78765dcbed7ece51c3f8680c78765dcbed7ece51c3f8
-
 
 app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 app.use(cookieParser());
@@ -51,3 +49,4 @@ app.listen(8800, () => {
   connect();
   console.log("Backend server is running!");
 });
+
