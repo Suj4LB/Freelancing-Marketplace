@@ -15,8 +15,6 @@ const app = express();
 dotenv.config();
 mongoose.set('strictQuery', true);
 
-// @3:07:09
-// Current working message endpoint - http://localhost:5173/message/680c78765dcbed7ece51c3f8680c78765dcbed7ece51c3f8
 
 const connect = async () => {
     try {
