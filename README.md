@@ -82,7 +82,9 @@ npm install
 
 ⚙️ Configure Environment Variables
 Create a .env file in the api/ directory with the following content:
+
 JWT_KEY=<your-secret-jwt-key>
+
 MONGO_URL=<your-mongodb-connection-uri>
 
 ▶️ Run the Application
